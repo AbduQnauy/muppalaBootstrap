@@ -1,0 +1,31 @@
+.row-header {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.row-content {
+  margin: 0 auto;
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer {
+  background-color: rgba(236, 240, 37, 0.404);
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.jumbotron {
+  padding: 70px 30px;
+  margin: 0 auto;
+  background-color: #fa0;
+  color: floralwhite;
+}
+.address {
+  font-size: 80%;
+  margin: 0;
+  color: black;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}

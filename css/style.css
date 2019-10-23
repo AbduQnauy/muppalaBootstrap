@@ -41,6 +41,6 @@ body {
   z-index: 0;
 }
 .navbar-light {
-  background-color: rgba(125, 246, 240, 0.5);
+  background-color: rgb(125, 246, 240);
   color: #fff;
 }

@@ -35,3 +35,12 @@
 .leadership {
   padding: 35px 0;
 }
+
+body {
+  padding-top: 56px;
+  z-index: 0;
+}
+.navbar-light {
+  background-color: rgba(125, 246, 240, 0.5);
+  color: #fff;
+}

@@ -9,11 +9,39 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <!-- Custom CSS classes -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>About us</title>
   </head>
 
   <body>
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-auto" href="index.html"
+          >Restaurant Confusion</a
+        >
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
@@ -32,6 +60,10 @@
 
     <div class="container">
       <div class="row">
+        <ol class="col-12 breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active">About Us</li>
+        </ol>
         <div class="col-12">
           <h3>About Us</h3>
           <hr />

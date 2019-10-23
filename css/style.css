@@ -29,3 +29,9 @@
   display: flex;
   flex-direction: column;
 }
+.history {
+  padding: 40px 0;
+}
+.leadership {
+  padding: 35px 0;
+}

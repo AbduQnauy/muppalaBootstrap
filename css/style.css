@@ -44,3 +44,15 @@ body {
   background-color: rgb(125, 246, 240);
   color: #fff;
 }
+.bold {
+  font-weight: bold;
+}
+.sizer {
+  font-size: 120%;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+}

@@ -14,8 +14,8 @@
   padding: 20px 0;
 }
 .jumbotron {
-  margin: 0 auto;
   padding: 70px 30px;
+  margin: 0 auto;
   background-color: #fa0;
   color: floralwhite;
 }
@@ -24,6 +24,7 @@
   margin: 0;
   color: black;
 }
+
 .links {
   display: flex;
   flex-direction: column;
@@ -34,12 +35,13 @@
 .leadership {
   padding: 35px 0;
 }
+
 body {
   padding-top: 56px;
   z-index: 0;
 }
 .navbar-light {
-  background-color: #7df6f0;
+  background-color: rgb(125, 246, 240);
   color: #fff;
 }
 .bold {
@@ -54,16 +56,17 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 1rem;
 }
+
 .pointer {
   cursor: pointer;
 }
 .carousel {
-  background-color: #05a8a0;
+  background-color: rgb(5, 168, 160);
 }
-.carousel .carousel-item {
+.carousel-item {
   height: 300px;
 }
-.carousel .carousel-item img {
+.carousel-item img {
   position: absolute;
   top: 0;
   left: 0;

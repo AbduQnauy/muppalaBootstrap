@@ -72,3 +72,12 @@ body {
   left: 0;
   height: 100%;
 }
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.transp {
+  background-color: transparent;
+  border: none;
+}

@@ -7,7 +7,8 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "sass": "node-sass -o css/ css/"
+    "sass": "node-sass -o css/ css/",
+    "watch": "node-sass -wo css/ css/"
   },
   "repository": {
     "type": "git",

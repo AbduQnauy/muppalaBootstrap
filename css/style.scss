@@ -3,6 +3,10 @@ $footer-bg: rgba(236, 240, 37, 0.404);
 $jumbotron-bg: #fa0;
 $navbar-bg: rgb(125, 246, 240);
 $carousel-bg: rgb(5, 168, 160);
+$modal-body-bg-color: rgb(205, 241, 239);
+$modal-header-bg-color: rgba(206, 70, 17, 0.877);
+$modal-header-color: floralwhite;
+$modal-dismiss: #fff;
 
 // HEIGHT
 $carousel-item-height: 300px;
@@ -91,4 +95,19 @@ body {
 .transp {
   background-color: transparent;
   border: none;
+}
+.modal-body {
+  background-color: $modal-body-bg-color;
+}
+.modal-header {
+  background-color: $modal-header-bg-color;
+  color: $modal-header-color;
+  button {
+    color: $modal-dismiss;
+    opacity: 0.7;
+    font-weight: 900;
+    font-size: 2rem;
+    text-shadow: none;
+    font-family: sans-serif;
+  }
 }
